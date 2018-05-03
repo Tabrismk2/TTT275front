@@ -30,7 +30,7 @@ export default class Loginpage extends Component {
 
     this.setState({ isLoading: true });
 
-
+    //Need fix    
     if (this.state.email === "forrestyschen@gmail.com" && this.state.password === "880227" ) {
       this.props.userHasAuthenticated(true);
       this.props.history.push("/");
